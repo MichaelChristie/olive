@@ -6,6 +6,7 @@
 //
 
 import Foundation
+<<<<<<< HEAD
 
 struct SampleData {
     static let recipes = [
@@ -15,3 +16,5 @@ struct SampleData {
     ]
 }
 
+=======
+>>>>>>> addswiftdata
