@@ -6,7 +6,6 @@
 //
 
 import Foundation
-<<<<<<< HEAD
 
 struct Recipe: Identifiable {
     var id = UUID()
@@ -16,5 +15,4 @@ struct Recipe: Identifiable {
     var instructions: String
 }
 
-=======
->>>>>>> addswiftdata
+
