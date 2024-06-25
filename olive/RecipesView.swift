@@ -8,16 +8,17 @@
 import SwiftUI
 
 struct RecipesView: View {
+    let recipes = SampleData.recipes
+
     var body: some View {
         NavigationView {
-            List {
-                // Sample data
-                NavigationLink(destination: RecipeDetailView()) {
+            List(recipes) { recipe in
+                NavigationLink(destination: RecipeDetailView(recipe: recipe)) {
                     HStack {
-                        Image("sample") // Replace with actual image names
+                        Image(recipe.imageName) // Ensure you have these images in your assets
                             .resizable()
                             .frame(width: 50, height: 50)
-                        Text("Recipe Title")
+                        Text(recipe.title)
                     }
                 }
             }
@@ -25,4 +26,5 @@ struct RecipesView: View {
         }
     }
 }
+
 

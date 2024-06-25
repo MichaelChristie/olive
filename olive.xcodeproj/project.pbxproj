@@ -16,6 +16,8 @@
 		70E728DC2C2A8F7400375087 /* InspirationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E728DB2C2A8F7400375087 /* InspirationView.swift */; };
 		70E728DE2C2A8F9D00375087 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E728DD2C2A8F9D00375087 /* SearchView.swift */; };
 		70E728E02C2A92AD00375087 /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E728DF2C2A92AD00375087 /* RecipeDetailView.swift */; };
+		70E728E52C2AAE3B00375087 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E728E42C2AAE3B00375087 /* Recipe.swift */; };
+		70E728E72C2AAE8700375087 /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E728E62C2AAE8700375087 /* SampleData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		70E728DB2C2A8F7400375087 /* InspirationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InspirationView.swift; sourceTree = "<group>"; };
 		70E728DD2C2A8F9D00375087 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		70E728DF2C2A92AD00375087 /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = "<group>"; };
+		70E728E42C2AAE3B00375087 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		70E728E62C2AAE8700375087 /* SampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 		70E728C82C2A749300375087 /* olive */ = {
 			isa = PBXGroup;
 			children = (
+				70E728E42C2AAE3B00375087 /* Recipe.swift */,
+				70E728E62C2AAE8700375087 /* SampleData.swift */,
 				70E728C92C2A749300375087 /* oliveApp.swift */,
 				70E728CB2C2A749300375087 /* ContentView.swift */,
 				70E728DF2C2A92AD00375087 /* RecipeDetailView.swift */,
@@ -167,6 +173,8 @@
 				70E728DA2C2A8F2E00375087 /* RecipesView.swift in Sources */,
 				70E728DE2C2A8F9D00375087 /* SearchView.swift in Sources */,
 				70E728CA2C2A749300375087 /* oliveApp.swift in Sources */,
+				70E728E72C2AAE8700375087 /* SampleData.swift in Sources */,
+				70E728E52C2AAE3B00375087 /* Recipe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

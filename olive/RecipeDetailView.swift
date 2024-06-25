@@ -8,13 +8,28 @@
 import SwiftUI
 
 struct RecipeDetailView: View {
+    var recipe: Recipe
+
     var body: some View {
-        VStack {
-            Image("sampleDetail") // Replace with actual image names
-                .resizable()
-                .scaledToFit()
-            Text("Ingredients and instructions here")
+        ScrollView {
+            VStack(alignment: .leading, spacing: 20) {
+                Image(recipe.imageName)
+                    .resizable()
+                    .scaledToFit()
+
+                Text("Ingredients")
+                    .font(.headline)
+                ForEach(recipe.ingredients, id: \.self) { ingredient in
+                    Text("- \(ingredient)")
+                }
+
+                Text("Instructions")
+                    .font(.headline)
+                Text(recipe.instructions)
+            }
+            .padding()
         }
-        .navigationTitle("Recipe Detail")
+        .navigationTitle(recipe.title)
+        .navigationBarTitleDisplayMode(.inline)
     }
 }
