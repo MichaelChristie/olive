@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		70BEDBF42C349C5E00C863E7 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70BEDBF32C349C5E00C863E7 /* CustomView.swift */; };
 		70E728CA2C2A749300375087 /* oliveApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E728C92C2A749300375087 /* oliveApp.swift */; };
 		70E728CC2C2A749300375087 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E728CB2C2A749300375087 /* ContentView.swift */; };
 		70E728CE2C2A749400375087 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70E728CD2C2A749400375087 /* Assets.xcassets */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		70BEDBF32C349C5E00C863E7 /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 		70E728C62C2A749300375087 /* olive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = olive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70E728C92C2A749300375087 /* oliveApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oliveApp.swift; sourceTree = "<group>"; };
 		70E728CB2C2A749300375087 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 				70E728CD2C2A749400375087 /* Assets.xcassets */,
 				70E728E32C2AA0FA00375087 /* images */,
 				70E728CF2C2A749400375087 /* Preview Content */,
+				70BEDBF32C349C5E00C863E7 /* CustomView.swift */,
 			);
 			path = olive;
 			sourceTree = "<group>";
@@ -171,6 +174,7 @@
 				70E728DC2C2A8F7400375087 /* InspirationView.swift in Sources */,
 				70E728CC2C2A749300375087 /* ContentView.swift in Sources */,
 				70E728DA2C2A8F2E00375087 /* RecipesView.swift in Sources */,
+				70BEDBF42C349C5E00C863E7 /* CustomView.swift in Sources */,
 				70E728DE2C2A8F9D00375087 /* SearchView.swift in Sources */,
 				70E728CA2C2A749300375087 /* oliveApp.swift in Sources */,
 				70E728E72C2AAE8700375087 /* SampleData.swift in Sources */,

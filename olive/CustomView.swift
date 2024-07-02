@@ -1,13 +1,6 @@
-//
-//  HomeView.swift
-//  olive
-//
-//  Created by Michael Christie on 25/06/2024.
-//
-
 import SwiftUI
 
-struct HomeView: View {
+struct CustomView: View {
     var body: some View {
         VStack {
             Button(action: {
@@ -29,14 +22,29 @@ struct HomeView: View {
             })
 
             
+            Spacer()
         }
         .padding()
-
     }
 }
 
-struct HomeView_Previews: PreviewProvider {
+struct CustomRowView: View {
+    
+    @State var buttonTitle: String
+    
+    var body: some View {
+        Text(buttonTitle)
+            .frame(maxWidth: .infinity)
+            .foregroundColor(.white)
+            .padding(.vertical, 40)
+            .background(Color.blue)
+            .cornerRadius(12)
+    }
+}
+
+
+struct CustomViewsz_Previews: PreviewProvider {
     static var previews: some View {
-        HomeView()
+        CustomView()
     }
 }

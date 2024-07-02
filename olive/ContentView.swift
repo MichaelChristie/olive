@@ -30,7 +30,6 @@ struct ContentView: View {
                             Label("Search", systemImage: "magnifyingglass")
                         }
                 }
-        
     }
 }
 
